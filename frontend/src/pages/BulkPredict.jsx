@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react'
 import { predictBulk } from '../utils/api'
 import LoadingSpinner from '../components/LoadingSpinner'
-import StatCard from '../components/StatCard'
+import StatCard from '../components/StateCard'
 
 export default function BulkPredict() {
   const [file, setFile] = useState(null)

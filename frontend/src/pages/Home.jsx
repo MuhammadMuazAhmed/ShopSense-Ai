@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { checkHealth } from '../utils/api'
-import StatCard from '../components/StatCard'
+import StatCard from '../components/StateCard'
 
 export default function Home() {
   const [health, setHealth] = useState(null)
