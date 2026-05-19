@@ -16,7 +16,7 @@ export default function Home() {
     <div className="max-w-6xl mx-auto px-6 py-12">
 
       {/* Hero */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-16 flex flex-col items-center">
         <div className="inline-flex items-center gap-2 bg-indigo-600/20 border 
                         border-indigo-500/30 rounded-full px-4 py-2 mb-6">
           <div className="w-2 h-2 bg-indigo-400 rounded-full animate-pulse"></div>
@@ -25,18 +25,18 @@ export default function Home() {
           </span>
         </div>
 
-        <h1 className="text-5xl font-bold text-white mb-6 leading-tight">
+        <h1 className="text-5xl font-bold text-white mb-6 leading-tight text-center">
           Predict Customer
           <span className="text-indigo-400"> Purchase Behavior</span>
           <br />Before It Happens
         </h1>
 
-        <p className="text-slate-400 text-xl max-w-2xl mx-auto mb-10">
+        <p className="text-slate-400 text-xl max-w-2xl mx-auto mb-10 text-center">
           ShopSense AI analyzes customer session data and predicts whether
           they will complete a purchase or abandon — giving you actionable insights.
         </p>
 
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex items-center justify-center gap-4 mt-4">
           <Link
             to="/predict"
             className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 
